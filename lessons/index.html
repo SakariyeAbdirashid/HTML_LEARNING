@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hyper-text markup language</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, reiciendis.</p>
+    <p title="HTML">Hyper-text mark-up language</p>
+    <p align="center">Align item in the center / right</p>
+    <h6>headind_6</h6>
+    <h5>headind_5</h5>
+    <h4>headind_4</h4>
+    <h3>headind_3</h3>
+    <h2>headind_2</h2>
+    <h1>headind_1</h1>
+    <p><b>this contex is bold format</b></p>
+    <p><u>this is contex is underline</u></p>
+    <p>old price <strike>25$</strike> new price <b>20$</b></p>
+    x<sup>2</sup> + 2<sub>3</sub> = 4 solve this equation (supercripted)
+    <p>the formula of water is HO<sub>2</sub></p> subscripted
+    <br> <p>(br) this is line break</p> 
+    <hr> this is horizental line
+   
+    <!-- span and div are both html elements that group togather related parts of a web page -->
+
+    <div>
+        <p>Lorem, ipsum.</p>
+        <u>hello wolrd</u>
+        <span>time</span>
+        <span>date</span>
+    </div>
+<br>
+    <!-- lists are used to specify lists of information  includes ul,ol,dl -->
+    <p><b>this is unordered lists</b></p> 
+    <ul>
+        <li>bosaso</li>
+        <li>qardo</li>
+        <li>garowe</li>
+    </ul>
+    <ul type="square">
+        <li>bosaso</li>
+        <li>qardo</li>
+        <li>garowe</li>
+    </ul>
+    <ul type="circle">
+        <li>bosaso</li>
+        <li>qardo</li>
+        <li>garowe</li>
+    </ul>
+
+    <p><b>thi is ordered list</b></p>
+    <ol>
+        <li>javascript</li>
+        <li>html</li>
+        <li>ruby</li>
+        <li>css</li>
+        <li>react</li>
+        <li>nodejs</li>
+    </ol>
+    <ol type="A">
+        <li>javascript</li>
+        <li>html</li>
+        <li>ruby</li>
+        <li>css</li>
+        <li>react</li>
+        <li>nodejs</li>
+    </ol>
+    <ol type="I">
+        <li>javascript</li>
+        <li>html</li>
+        <li>ruby</li>
+        <li>css</li>
+        <li>react</li>
+        <li>nodejs</li>
+    </ol>
+    <br>
+    <p><b>thi is description list</b></p>
+    <dl>
+        <dt>TCP/IP</dt>
+        <dd>transport control protocol internet protocol</dd>
+    </dl>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper text markup language</dd>
+    </dl>
+    <dl>
+        <dt>UDP</dt>
+        <dd>User datagram protocol</dd>
+    </dl>
+    <!-- nested lists in html -->
+     <ul>
+        <p><b>nested lists in html</b></p>
+        <li>
+            fruit <ul>
+                <li>banana</li>
+                <li>carrot</li>
+                <li>tomato</li>
+            </ul>
+        </li>
+     </ul>
+    <!-- hyperlinka (anchar tags) -->
+     <p>this anchar tags <a href="#">click here</a></p>
+     <a href="#" target="_blank">Apply</a>
+     <a href="#" target="self">choose</a>
+     <p>and this is eamil links</p>
+     <a href="mailto:example1@gmail.com">contact me</a><br>
+     <img src="Only_HTml/desktop.jpg" alt="backgroung_img" width="100px" height="100px"><br>
+    <p>this is audio</p>
+     <audio controls type="autoplay">
+        <source src=".//Only_HTML/sound.m4a">
+     </audio><br>
+     <p>this is video in wep page</p>
+     <video controls muted autoplay width="400px" height="300px">
+        <source src="./Only_HTML/video.mp4" >
+     </video>
+      <br>
+    <p>This is table </p>
+    <table border="1px" cellpadding="9px" cellspacing="0">
+        <tr>
+            <th>NAME</th>
+            <th>UNIVERSITY</th>
+            <th>FACULT</th>
+            <th>SEMISTER</th>
+        </tr>
+        <tr>
+            <td>ahmed ali</td>
+            <td>citycot</td>
+            <td>computer science</td>
+            <td>three</td>
+        </tr>
+        <tr>
+            <td>jaamca ismacil</td>
+            <td>east africa</td>
+            <td>labratory</td>
+            <td>five</td>
+        </tr>
+        <tr>
+            <td>ahmed ali</td>
+            <td>citycot</td>
+            <td>computer science</td>
+            <td>three</td>
+        </tr>
+        <tr>
+            <td>jaamca ismacil</td>
+            <td>east africa</td>
+            <td>labratory</td>
+            <td>five</td>
+        </tr>
+        <tr>
+            <td>ahmed ali</td>
+            <td>citycot</td>
+            <td>computer science</td>
+            <td>three</td>
+        </tr>
+        <tr>
+            <td>jaamca ismacil</td>
+            <td>east africa</td>
+            <td>labratory</td>
+            <td>five</td>
+        </tr>
+        <tr>
+            <td>ahmed ali</td>
+            <td>citycot</td>
+            <td>computer science</td>
+            <td>three</td>
+        </tr>
+        <tr>
+            <td>jaamca ismacil</td>
+            <td>east africa</td>
+            <td>labratory</td>
+            <td>five</td>
+        </tr>
+    </table>
+    <br>
+    <p>now we cover html form</p>
+    <form action="index.php" method="get">
+        <h1>login form</h1>
+        <label for="email">enter email</label><br>
+        <input type="email" placeholder="enter email" required><br>
+        <label for="username">select gender </label><br>
+        <select>
+            <option value="gender">gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select><br>
+        <label for="password">enter password</label><br>
+        <input type="password" placeholder="enter password" required><br>
+        <input type="submit" value="login">
+    </form>
+    <br>
+
+    <p><b>this form with legend and fieldset</b></p>
+    <form action="index.php" method="post">
+        <fieldset>
+            <legend>personale information</legend>
+            <label>lname</label><br>
+            <input type="text" placeholder="enter fname"><br>
+            <label>enter lname</label><br>
+            <input type="text" placeholder="enter lname"><br>
+            <label>enter your age</label><br>
+            <input type="number"><br>
+            <label>enter email</label><br>
+            <input type="email" placeholder="enter email" required><br>
+            <label>select country</label><br>
+            <select>
+                <option value="somalia">somalia</option>
+                <option value="england">england</option>
+                <option value="poland">poland</option>
+                <option value="united state">united state</option>
+                <option value="france">france</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>background life</legend>
+            <label>education level</label><br>
+            <select>
+                <option value="select">select</option>
+                <option value="high school">high school</option>
+                <option value="primary school">primary school</option>
+                <option value="degree">degree</option>
+                <option value="master">master</option>
+                <option value="PHD">PHD</option>
+            </select>
+
+        </fieldset>
+    </form>
+</body>
+</html>
